@@ -13,6 +13,7 @@ This is the backend service for the **High-Performance Searchable Ticketing Syst
 - Optimized queries using `Q` objects and indexing
 -  Seeded with 100,000+ fake records using `Faker`
 -  Modular and clean codebase with proper exception handling
+-  Swagger UI for API testing and documentation
 
 ---
 
@@ -21,7 +22,8 @@ This is the backend service for the **High-Performance Searchable Ticketing Syst
 - Python 3.10.0
 - Django 5.2.4
 - Django REST Framework
-- MySql 
+- MySql
+- drf-yasg (for Swagger UI)
   
 
 ---
@@ -33,6 +35,15 @@ This is the backend service for the **High-Performance Searchable Ticketing Syst
 ```bash
 git clone https://github.com/your-username/ticketing-system-backend.git
 cd ticketing-system-backend
+
+python -m venv venv
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+python manage.py runserver
+
+ Swagger URL: http://localhost:8000/Customer_Ticket_System/docs/
 
 
 
