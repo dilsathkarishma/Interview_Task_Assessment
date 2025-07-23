@@ -36,23 +36,34 @@ This is the backend service for the **High-Performance Searchable Ticketing Syst
 git clone https://github.com/your-username/ticketing-system-backend.git
 cd ticketing-system-backend
 
+ ```
+### 2.Create Virtual Environment
+
+```bash
 python -m venv venv
 source venv/bin/activate
 
-pip install -r requirements.txt
+ ```
+### 3.Install Dependencies
 
-python manage.py runserver
-
- Swagger URL: http://localhost:8000/Customer_Ticket_System/docs/
-
-
+```bash
+     pip install -r requirements.txt
 
 
+ ```
+### 4.Run Locally
+
+```bash
+    Run Locally:
+
+   python app.py runserver 0.0.0.0:8000
+
+   Swagger URL:
+
+    http://localhost:8000/Customer_Ticket_System/docs/
 
 
-Install Dependencies:
 
-   $pip install -r requirements.txt
-Run Locally:
 
-   $python app.py runserver 0.0.0.0:8000
+
+
