@@ -70,31 +70,31 @@ Your directory tree should be like this,
 
 TICKET_SYSTEMS/
 ├── .idea/                        
-├── logs/                         # Application logs
-├── t_env/                        # Virtual environment
-├── ticket_app/                   # Main app with ticket logic
+├── logs/                        
+├── t_env/                        
+├── ticket_app/                   
 │   ├── __init__.py
 │   ├── admin.py
 │   ├── apps.py
-│   ├── models.py                 # Ticket model and DB structure
-│   ├── serializers.py           # DRF serializers
+│   ├── models.py                 
+│   ├── serializers.py           
 │   ├── tests.py
-│   ├── urls.py                  # App-specific URL routing
-│   ├── views.py                 # All API logic
-│   ├── migrations/              # Django migration files
-│   └── utils/                   # Custom response handler, helpers
+│   ├── urls.py                  
+│   ├── views.py                 
+│   ├── migrations/            
+│   └── utils/                   
 │       ├── __init__.py
-│       └── response.py          # Custom response format generator
-├── ticket_project/              # Main project config
+│       └── response.py          
+├── ticket_project/              
 │   ├── __init__.py
 │   ├── asgi.py
-│   ├── settings.py              # All Django and DRF settings
-│   ├── swagger_service.py      # Swagger schema and UI config
-│   ├── urls.py                  # Project URL configuration
+│   ├── settings.py              
+│   ├── swagger_service.py      
+│   ├── urls.py                 
 │   └── wsgi.py
-├── app.py                       # Optional entrypoint (if using WSGI)
-├── requirements.txt             # All Python dependencies
-└── README.md                    # This file
+├── app.py                       
+├── requirements.txt           
+└── README.md                   
 
 
 
