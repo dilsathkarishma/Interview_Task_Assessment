@@ -40,8 +40,8 @@ cd ticketing-system-backend
 ### 2.Create Virtual Environment
 
 ```bash
-python -m venv venv
-source venv/bin/activate
+ python -m venv "Env_name"
+ cd Env_name / Scripts / Activate
 
  ```
 ### 3.Install Dependencies
