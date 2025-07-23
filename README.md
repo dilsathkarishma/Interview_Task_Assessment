@@ -64,7 +64,9 @@ source venv/bin/activate
 
 
 
+Quick Start:
 
+Your directory tree should be like this,
 
 TICKET_SYSTEMS/
 ├── .idea/                        
