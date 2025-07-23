@@ -11,7 +11,6 @@ This is the backend service for the **High-Performance Searchable Ticketing Syst
 -  Filter by status, priority, and created date range
 -  Pagination support with offset and limits
 - Optimized queries using `Q` objects and indexing
--  Seeded with 100,000+ fake records using `Faker`
 -  Modular and clean codebase with proper exception handling
 -  Swagger UI for API testing and documentation
 
